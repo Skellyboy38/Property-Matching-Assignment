@@ -1,0 +1,432 @@
+body {
+	background-color: #434C4C;
+	background-image: url("../images/background.jpg");
+	background-size: 1200px 1200px;
+	background-repeat: no-repeat;
+	background-position: 80px 0px;
+}
+
+#header {
+	position: absolute;
+	left: 50px;
+	z-index: -1;
+}
+
+h1#delete_owner, h1#delete_tenant {
+	position: absolute;
+	top: 130px;
+	left: 850px;
+	text-indent: 210px;
+	color: white;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#login {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	border: solid black;
+	text-indent: 210px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+h1#Register {
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	border: solid black;
+	text-indent: 180px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#log_out {
+	position: absolute;
+	top: 195px;
+	left: 20px;
+	border: solid black;
+	text-indent: 180px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#owner_profile {
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	border: solid black;
+	text-indent: 69px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#search_properties {
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	border: solid black;
+	text-indent: 26px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#place_ad {
+	position: absolute;
+	top: 305px;
+	left: 20px;
+	border: solid black;
+	text-indent: 165px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#update_profile {
+	position: absolute;
+	top: 305px;
+	left: 20px;
+	border: solid black;
+	text-indent: 85px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#ads {
+	position: absolute;
+	top: 360px;
+	left: 20px;
+	border: solid black;
+	text-indent: 160px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#preferences {
+	position: absolute;
+	top: 415px;
+	left: 20px;
+	border: solid black;
+	text-indent: 113px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#owner_match {
+	position: absolute;
+	top: 470px;
+	left: 20px;
+	border: solid black;
+	text-indent: 203px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+h1#match {
+	position: absolute;
+	top: 360px;
+	left: 20px;
+	border: solid black;
+	text-indent: 130px;
+	color: white;
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	font-family: helvetica;
+	z-index: -1;
+}
+
+a#home {
+	position: absolute;
+	top: 100px;
+	left: 65px;
+}
+
+#intro {
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: bolder;
+	border: solid black;
+	padding: 5px;
+	position: absolute;
+	left: 420px;
+	top: 165pt;
+	background-color: white;
+}
+
+span#intro_title {
+	text-decoration: underline;
+}
+
+p#menu {
+	font-family: helvetica;
+	font-size: 12pt;
+	font-style: italic;
+	border: solid black;
+	color: blue;
+	padding: 10px;
+	position: absolute;
+	left: 900px;
+	top: 220pt;
+	background-color: #99FFFF;
+}
+
+form#register{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1100px 600px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+input {
+	padding: 2px;
+	margin: 2px;
+}
+
+p#owner_intro {
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: bolder;
+	border: solid black;
+	padding: 5px;
+	position: absolute;
+	left: 390px;
+	top: 152pt;
+	background-color: white;
+}
+
+h1#ad {
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: bolder;
+	border: solid black;
+	padding: 5px;
+	position: absolute;
+	left: 390px;
+	top: 270pt;
+	background-image: url("../images/intro_background.jpg");
+}
+
+form#owner_preferences {
+	position: absolute;
+	left: 350px;
+	top: 230px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1000px 300px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+form#ad {
+	position: absolute;
+	left: 360px;
+	top: 220px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1000px 491px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+form#tenant_profile, form#search_properties, p#tenant_winner, h1#error{
+	position: absolute;
+	left: 360px;
+	top: 220px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1000px 500px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+form#new_tenant_profile {
+	position: absolute;
+	left: 360px;
+	top: 560px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1000px 500px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+h1#tenant_search {
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: bolder;
+	border: solid black;
+	padding: 5px;
+	position: absolute;
+	left: 390px;
+	top: 270pt;
+	background-image: url("../images/intro_background.jpg");
+}
+
+p#tenant_intro {
+	font-family: helvetica;
+	font-size: 14pt;
+	font-style: italic;
+	font-weight: bolder;
+	border: solid black;
+	padding: 5px;
+	position: absolute;
+	left: 390px;
+	top: 152pt;
+	background-color: white;
+}
+
+form#tenant_menu {
+	position: absolute;
+	left: 120px;
+	top: 440px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 700px 400px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+form#tenant_search {
+	position: absolute;
+	left: 120px;
+	top: 500px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 900px 400px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+#footer {
+	position: absolute;
+	left: 50px;
+	top: 1000px;
+	z-index: -1;
+}
+
+#box_header {
+	background-color: #000099;
+	color: white;
+}
+
+p#page_name {
+	position: absolute;
+	left: 450px;
+	top: 80px;
+	font-size: 30pt;
+	font-weight: bolder;
+	color: #3300FF;
+}
+
+p#website {
+	position: absolute;
+	left: 350px;
+	top: -60px;
+	font-size: 30pt;
+	font-weight: bolder;
+	color: white;
+	font-size: 50pt;
+}
+
+h1#copyright {
+	position: absolute;
+	left: 900px;
+	top: 1000px;
+	color: white;
+	font-family: helvetica;
+}
+
+form#login {
+	position: absolute;
+	left: 120px;
+	top: 300px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1100px 600px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

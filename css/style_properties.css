@@ -1,0 +1,20 @@
+form#search_results {
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	background-image: url("../images/registration_background.jpg");
+	background-size: 1500px 2000px;
+	padding: 5px;
+	border: solid black;
+	font-family: helvetica;
+	font-weight: bolder;
+	padding-right: 100px;
+ }
+
+ body {
+ 	background-color: #434C4C;
+	background-image: url("../images/background.jpg");
+	background-size: 1200px 1200px;
+	background-repeat: repeat-y;
+	background-position: 80px 0px;
+ }
